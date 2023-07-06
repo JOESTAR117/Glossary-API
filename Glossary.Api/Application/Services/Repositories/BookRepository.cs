@@ -1,9 +1,8 @@
 ﻿using Glossary.Api.Data;
 using Glossary.Api.Models;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
 
-namespace Glossary.Api.Services.Repositories
+namespace Glossary.Api.Application.Services.Repositories
 {
     public class BookRepository : IBookRepository
     {

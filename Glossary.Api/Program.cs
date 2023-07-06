@@ -1,5 +1,5 @@
+using Glossary.Api.Application.Services.Repositories;
 using Glossary.Api.Data;
-using Glossary.Api.Services.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
